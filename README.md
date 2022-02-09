@@ -1,7 +1,5 @@
 ### Conditionally deleting old tasks
 
-**Branch name:** dynamodbdeleteiterators-prework
-
 Expected time required: 10 min
 
 In the previous activity, you worked with a table that keeps track of different tasks that need to be completed at work to
@@ -23,9 +21,6 @@ a `getTask()` and `saveTask()` method for you.
 
 The unit tests in `TaskDAOTest` are set-up with a mock database so that you can test your methods offline. The `main()` 
 method is set-up in `TaskApp` so that you can connect to the real TaskTracker table and test your methods that way.
-
-When you've finished writing your code and testing, make sure `rde workflow run dynamodbdeleteiterators-prework-tasktracker2`
-is passing and push.
 
 HINTS:
 * [The attribute name I'm passing in as the key for the HashMap isn't working properly.](./hints/hint-01.md)
